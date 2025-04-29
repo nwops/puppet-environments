@@ -1,5 +1,5 @@
 # puppet-environments
-A example repo of enviornments.yaml to use with r10k yaml environment feature
+A example repo of environments.yaml to use with r10k yaml environment feature
 
 
 
@@ -21,10 +21,6 @@ Select an environment to promote v0.1.0 to:
 #? 2
 
 Promote v0.1.0 to dev1_acceptance? [Y/n] y
-error: Your local changes to the following files would be overwritten by checkout:
-	r10k-environments.yaml
-Please commit your changes or stash them before you switch branches.
-Aborting
 [promote-v0.1.0-dev2_acceptance 42eca26] Promoting version v0.1.0 to environment dev1_acceptance
  1 file changed, 1 insertion(+), 1 deletion(-)
 If you are ready to push run: git push origin promote-v0.1.0-dev1_acceptance
