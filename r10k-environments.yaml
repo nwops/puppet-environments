@@ -21,7 +21,7 @@ dev2_development:
 dev3_acceptance:
   type: git
   source: https://github.com/nwops/kontrol-repo-yaml-dev3.git
-  version: main
+  version: v0.1.0
 dev3_development:
   type: git
   source: https://github.com/nwops/kontrol-repo-yaml-dev3.git
